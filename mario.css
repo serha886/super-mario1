@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(253, 252, 252);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(174, 8, 8);}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-left: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(25, 23, 24);
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgb(62, 7, 113);
+}
+.Mario{
+       text-align: center;
+       padding: 40px;
+    }
+    .Mario p{
+        margin-bottom: 30px;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    
+   .gallery{
+    text-align: center;
+    padding: 50px 20px;
+   }
+   .gallery h2{
+    font-size: 30px;
+    margin: 20px;
+   }
+
+.imagescontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.imagescontainer{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.face{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px; 
+    border-radius: 5px;
+    
+
+}
+footer{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: black;
+
+}
+footer p{
+    font-size: 20px;
+    color: aliceblue;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px; 
+    border-radius: 5px; 
+}
+.welcome button{
+    padding: 10px 20px;
+    background-color: rgb(174, 8, 9);
+    font-size: 16px;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.face button{
+    padding: 10px 20px;
+    background-color: rgb(21, 21, 21);
+    font-size: 16px;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+}
